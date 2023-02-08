@@ -63,26 +63,23 @@ header {
 
     
 .logo h4 {
-   font-size: 64px;
-   color: var(--first-color);
-   align-items: center;
-   transform: scaleX(2);
-   letter-spacing: 0.5px;
-   padding-left: 20px;
-   position: relative;
-   margin-top: -1rem;
-   
-}
-
-.logo-para {
-    color: whitesmoke;
-    border-radius: 5px;
-    position: absolute;
-    font-size: 20px;
-    left: 13%;   
-    top: 7.7%;
-}
-
+    font-size: 64px;
+    color: var(--first-color);
+    align-items: center;
+    letter-spacing: 0.5px;
+    padding-left: 20px;
+    position: relative;
+    margin-top: -1rem;
+    
+ }
+ 
+ .logo-para {
+     font-size: 12px;
+     color: white;
+     letter-spacing: 0;
+     margin-top: -0.5rem;
+ }
+ 
 
 a h4 {
     color: white;
@@ -399,10 +396,6 @@ footer p{
 
 @media (max-width: 2490px) {
 
-
-    .logo-para {
-        left: 11.5%;
-    }
     main {
         margin-top: 1.4rem;
         
@@ -518,12 +511,6 @@ footer p{
         font-size: 60px;
         padding-left: 40px;
      }
-    
-    .logo-para {
-        font-size: 17px;
-        left: 15.5%;
-        top: 8%;
-    }
     
     
     a h4 {
@@ -733,10 +720,6 @@ footer p{
 
 @media (max-width: 1820px) {
 
-    .logo-para {
-        left: 11%;
-    }
-
     main .insights h3 {
       width: 300px;
     }
@@ -767,13 +750,6 @@ footer p{
         font-size: 2.2em;
     }
 
-    .logo-para {
-        color: whitesmoke;
-        border-radius: 5px;
-        position: absolute;
-        font-size: 17px;
-    }
-
     main .insights {
         gap: 13rem;
     }
@@ -797,16 +773,6 @@ footer p{
         font-size: 50px;
         padding-left: 40px;
      }
-
-    .logo-para {
-        color: whitesmoke;
-        border-radius: 5px;
-        position: absolute;
-        font-size: 14px;
-        top: 7.5%; 
-        left: 14%;
-    }
-
 
 
     main {
@@ -956,19 +922,8 @@ footer p{
     }
 }
 
-@media (max-width: 1360px) {
 
-    .logo-para {
-      left: 10.5%;
-    }
-
-}
-
-@media (max-width: 1300px) {
-
-    .logo-para {
-            left: 9.5%;
-        }   
+@media (max-width: 1300px) { 
     
     main .insights {    
         margin-left: 0;
@@ -1003,9 +958,6 @@ footer p{
             padding: 20px 10px;
         }
 
-        .logo-para {
-            left: 11%;
-        }
     
         .grid {
             display: none;
@@ -1095,12 +1047,7 @@ footer p{
          }
     
         .logo-para {
-            color: whitesmoke;
-            border-radius: 5px;
-            position: absolute;
-            font-size: 12px;
-            left: 14.5%;
-            top: 7%; 
+            font-size: 8px;
         }
 
     
