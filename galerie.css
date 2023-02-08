@@ -79,6 +79,8 @@ header {
     color: white;
     letter-spacing: 0;
     margin-top: -0.5rem;
+    transform: scaleX(1)
+    
 }
 
 
