@@ -1147,51 +1147,6 @@ footer p{
 }
 
 
-@media all and (max-width: 900px) and (orientation: landscape) {
-    .logo-para {
-        left: 9.5%;
-    }
-}
-
-@media all and (max-width: 851px) and (orientation: landscape) {
-    .logo-para {
-        left: 10%;
-    }   
-}
-
-@media all and (max-width: 812px) and (orientation: landscape) {
-    .logo-para {
-        left: 10.5%;
-        top: 13%;
-    }   
-}
-
-@media all and (max-width: 740px) and (orientation: landscape) {
-    .logo-para {
-        top: 13.5%;
-        left: 11.5%;
- 
-    }   
-}
-@media all and (max-width: 720px) and (orientation: landscape) {
-    .logo-para {
-        top: 9%;
-    }
-}
-
-@media all and (max-width: 667px) and (orientation: landscape) {
-    .logo-para {
-        top: 13%;
-        left: 7%;
-    }
-}
-@media all and (max-width: 653px) and (orientation: landscape) {
-    .logo-para {
-        top: 16%;
-    
-    }
-}
-
 
 
 
