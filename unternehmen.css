@@ -968,9 +968,14 @@ footer p{
                 
 @media (max-width: 450px)  {
 
-.wrapper {
-    margin-bottom: 15rem;
-}
+     .logo {
+        position: relative;
+        left: -10%;
+     }
+
+    .wrapper {
+         margin-bottom: 15rem;
+         }
 
     .wrapper p {
         width: 300px;
