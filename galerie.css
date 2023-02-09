@@ -771,6 +771,11 @@ footer p{
 
 @media (max-width: 450px)  {
 
+    .logo {
+        position: relative;
+        left: -10%;
+     }
+
      .footer {
         min-width: 480px;
         max-width: 530px;
