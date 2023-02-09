@@ -1606,6 +1606,11 @@ footer p{
     }
 
 @media (max-width: 450px)  {
+
+    .logo {
+        position: relative;
+        left: -10%;
+     }
   
     .material-icons-sharp-1 {
         margin-left: -4.5rem;
