@@ -913,6 +913,12 @@ footer p{
     }
 
 @media (max-width: 450px)  {
+
+    .logo {
+        position: relative;
+        left: -10%;
+     }
+
     .logo-para {
         font-size: 12px;
         left: 11.5%;
