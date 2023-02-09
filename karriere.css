@@ -59,29 +59,24 @@ header {
     padding: 5px;
 }
 
-    
 .logo h4 {
-   font-size: 64px;
-   color: var(--first-color);
-   align-items: center;
-   transform: scaleX(2);
-   letter-spacing: 0.5px;
-   padding-left: 20px;
-   position: relative;
-   margin-top: -1rem;
-   
-}
-
-.logo-para {
-    color: whitesmoke;
-    border-radius: 5px;
-    position: absolute;
-    font-size: 20px;
-    left: 13.5%;   
-    top: 7.7%;
-}
-
-
+    font-size: 64px;
+    color: var(--first-color);
+    align-items: center;
+    letter-spacing: 0.5px;
+    padding-left: 20px;
+    position: relative;
+    margin-top: -1rem;
+    
+ }
+ 
+ .logo-para {
+     font-size: 12px;
+     color: white;
+     letter-spacing: 0;
+     margin-top: -0.5rem;
+ }
+ 
 a h4 {
     color: white;
 }
@@ -440,15 +435,8 @@ footer p{
         
     .logo h4 {
         font-size: 60px;
-        padding-left: 30px;
+        padding-left: 40px;
      }
-    
-    .logo-para {
-        font-size: 17px;
-        left: 15%;
-        top: 8%;
-    }
-    
     
     a h4 {
         color: white;
@@ -586,10 +574,6 @@ footer p{
 
 @media (max-width: 1820px) {
 
-    .logo-para {
-        left: 11%;
-    }
-
     .line1 {
         margin-right: 19rem;
     }
@@ -608,14 +592,6 @@ footer p{
    
     .header-btn a {
         font-size: 2.2em;
-    }
-
-    .logo-para {
-        color: whitesmoke;
-        border-radius: 5px;
-        position: absolute;
-        font-size: 17px;
-        left: 12%;
     }
 
     main {
@@ -684,15 +660,6 @@ details {
         padding-left: 40px;
      }
 
-    .logo-para {
-        color: whitesmoke;
-        border-radius: 5px;
-        position: absolute;
-        font-size: 14px;
-        left: 11.5%;
-        top: 7.5%; 
-    }
-
      .footer {
         background-color: #24262b; 
        padding: 50px 0;
@@ -740,22 +707,12 @@ details {
 
 @media (max-width: 1360px) {
 
-    .logo-para {
-      left: 10.5%;
-    }
-
     .resumes2 {
         width: 30%;
        }
 
-}
 
-@media (max-width: 1300px) {
 
-    .logo-para {
-            left: 9.5%;
-        }   
-    
         main {
             margin-left: -14rem;
            }
@@ -777,10 +734,6 @@ details {
         .navbar a {
             font-size: 0.9rem;
             padding: 20px 10px;
-        }
-
-        .logo-para {
-            left: 11%;
         }
 
         .resumes1 {   
@@ -813,6 +766,7 @@ details {
     }
 
     @media (max-width: 1110px) {
+
         html,body
         {
            
@@ -823,16 +777,6 @@ details {
             font-size: 40px;
             padding-left: 40px;
          }
-    
-        .logo-para {
-            color: whitesmoke;
-            border-radius: 5px;
-            position: absolute;
-            font-size: 12px;
-            left: 11.5%;
-            top: 7%; 
-        }
-
 
         .resumes1 {   
             width: 520px;
@@ -844,6 +788,11 @@ details {
     }
 
     @media (max-width: 1035px)  {
+
+        .logo-para {
+            font-size: 8px;
+        }
+
         .footer-col .three i {
             margin-top: -3rem;
         }
@@ -856,10 +805,6 @@ details {
     
     @media (max-width: 1000px) {
 
-        .logo-para {
-            left: 9%;
-        }
-       
         .resumes1 {   
             width: 480px;
           }
@@ -935,11 +880,6 @@ details {
 
     @media (max-width: 900px) {
 
-        .logo-para {
-            left: 9%;
-           top: 7%;
-        }
-        
         main h1 {
             font-size: 36px
         }
@@ -974,9 +914,6 @@ details {
  
 
     @media (max-width: 820px)  {
-        .logo-para {
-            left: 8.5%;
-        }
 
         .footer-col .two i {
             margin-top: -3rem;
@@ -1030,12 +967,6 @@ details {
         .logo {
             margin-top: 0rem;
         }
-
-        .logo-para {
-            left: 11%;
-            font-size: 1.1rem;
-        }
-    
              
              header {
         
@@ -1223,15 +1154,15 @@ details {
                     padding-left: 14px;
                  }
             
-                .logo-para {
-                    font-size: 13px;
-                    left: 8%;
-                }
             
             }
 
 
             @media (max-width: 550px) {   
+
+                .logo-para {
+                    font-size: 7px;
+                } 
 
                .footer {
                 max-width: 630px;
@@ -1292,6 +1223,11 @@ details {
                 }
 
                 @media (max-width: 450px)  {
+
+                    .logo {
+                        position: relative;
+                        left: -10%;
+                     }
                 
                      .footer {
                         min-width: 480px;
@@ -1308,19 +1244,16 @@ details {
 
                     @media (max-width: 420px) {
      
-
                         .navbar a {
                            font-size: 18px;
                            margin-right: 2rem;
                         }
            
-           
-                   
-                   .logo-para {
-                       font-size: 12px;
-                       left: 11.5%;
-                       top: 8%;
-                   }
+                        .logo-para {
+                            font-size: 12px;
+                            left: 11.5%;
+                            top: 8%;
+                        }
            
                    .footer {
                        min-width: 450px;
