@@ -99,7 +99,7 @@ a h4 {
 
 .navbar a {
     font-size: 1.3rem;
-    padding: 20px 40px;
+    padding: 20px 20px;
     color: white;
     font-weight: lighter; 
 }
@@ -525,13 +525,13 @@ footer p{
     
     .navbar li {
         position: relative; 
-   
+        right: 5%;
     }
     
     
     .navbar a {
         font-size: 0.9rem;
-        padding: 20px 20px;
+        padding: 20px 10px;
         font-weight: lighter;
     }
     
@@ -955,7 +955,7 @@ footer p{
 
         .navbar a {
             font-size: 0.9rem;
-            padding: 20px 10px;
+            padding: 20px 5px;
         }
 
     
@@ -1196,6 +1196,7 @@ footer p{
              .navbar a {
                 float: none;
                 padding-left: 0px;
+                padding: 10px 2px;
                 letter-spacing: 3px;
                 font-size: 24px;
                 font-weight: bold;
@@ -1663,6 +1664,7 @@ footer p{
                 font-size: 18px;
                 margin-right: 2rem;
                     height: 81vh;
+                    padding: 5px 0.5rem;
           
              }
 
