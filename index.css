@@ -1736,57 +1736,62 @@ footer p{
 
     @media (max-width: 380px)  {
 
-     .logo {
-        font-size: 34px;
-     }
-
-         .logo-para {
-            font-size: 11.5px;
-            left: 13.5%;
+        .logo {
+           font-size: 34px;
         }
-
-        .material-icons-sharp-1 {
-            margin-left: -3rem;
-        }
-
-        .material-icons-sharp-2 {
-            margin-left: -2rem;
-        }
-
-        .material-icons-sharp-3 {
-            margin-left: -6.7rem;
-        } 
-
-        
-        main .insights > div .middle > .left {
-            margin-left: -1.7rem;
-           
-        }
-
-        main .insights > div .middle > .left-2 {
-            margin-left: -0.7rem;
-        }
-
-        main .insights > div .middle > .left-3 {
-            margin-left: -5.3rem;
-        }
-
-        .grid-content-2 {
-          margin-left: 9rem;  
-        }
-
-        .footer-col .one i {
-            margin-top: -7.3rem;
-        }
-
-        .friday {
-            padding-left: 2em;
-        }
-
-        .footer {
-            min-width: 420px;
+   
+            .logo-para {
+               font-size: 11.5px;
+               left: 13.5%;
            }
-    }
+
+           .navbar {
+            top: 12vh;
+            height: 70vh;
+             }
+   
+           .material-icons-sharp-1 {
+               margin-left: -3rem;
+           }
+   
+           .material-icons-sharp-2 {
+               margin-left: -2rem;
+           }
+   
+           .material-icons-sharp-3 {
+               margin-left: -6.7rem;
+           } 
+   
+           
+           main .insights > div .middle > .left {
+               margin-left: -1.7rem;
+              
+           }
+   
+           main .insights > div .middle > .left-2 {
+               margin-left: -0.7rem;
+           }
+   
+           main .insights > div .middle > .left-3 {
+               margin-left: -5.3rem;
+           }
+   
+           .grid-content-2 {
+             margin-left: 9rem;  
+           }
+   
+           .footer-col .one i {
+               margin-top: -7.3rem;
+           }
+   
+           .friday {
+               padding-left: 2em;
+           }
+   
+           .footer {
+               min-width: 420px;
+              }
+       }
 
     @media (max-width: 360px)  {
 
