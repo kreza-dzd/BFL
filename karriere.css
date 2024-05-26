@@ -976,6 +976,7 @@ details {
                  right: 0;
                  z-index: 1000;
                  display: flex;
+                 position: fixed;
                  align-items: center;
                  justify-content: space-between;
                  color: white;
